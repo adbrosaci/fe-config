@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "fe-config",
+  "author": "Adbros",
+  "description": "eslint, stylelint, browserslist, ..",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}' --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}

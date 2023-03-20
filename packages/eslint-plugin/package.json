@@ -1,0 +1,22 @@
+{
+  "name": "@adbros/eslint-plugin",
+  "version": "1.0.2",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8.35.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "espree": "^9.5.0",
+    "vue-eslint-parser": "^9.1.0"
+  }
+}

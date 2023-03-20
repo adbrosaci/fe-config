@@ -1,0 +1,17 @@
+{
+  "name": "@adbros/stylelint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.6",
+    "stylelint": "^15.2.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^4.4.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.2.0"
+  }
+}
