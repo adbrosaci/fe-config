@@ -1,8 +1,11 @@
 {
   "name": "@adbros/browserslist-config",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "description": "Browserslist config for Adbros projects",
+  "license": "MIT",
+  "homepage": "https://github.com/adbrosaci/fe-config",
   "main": "index.js",
   "devDependencies": {
-    "browserslist": "^4.21.5"
+    "eslint": "^8.43.0"
   }
 }
