@@ -1,6 +1,6 @@
 {
   "name": "@adbros/stylelint-config",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Stylelint config for Adbros projects",
   "license": "MIT",
   "homepage": "https://github.com/adbrosaci/fe-config",

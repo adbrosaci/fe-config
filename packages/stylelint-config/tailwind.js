@@ -8,12 +8,14 @@ module.exports = {
 	overrides: [
 		{
 			files: [ '*.vue', '**/*.vue' ],
+			customSyntax: 'postcss-html',
 			rules: {
 				...require('./rules/tailwind').rules,
 			},
 		},
 		{
 			files: [ '*.scss', '**/*.scss' ],
+			customSyntax: 'postcss-html',
 			plugins: [ 'stylelint-scss' ],
 			rules: {
 				...require('./rules/tailwind').sassRules,

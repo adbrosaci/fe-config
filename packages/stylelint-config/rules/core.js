@@ -37,7 +37,7 @@ const rules = {
 	'stylistic/function-whitespace-after': 'always',
 	'stylistic/number-leading-zero': 'always',
 	'stylistic/number-no-trailing-zeros': true,
-	'stylistic/string-quotes': 'double',
+	'stylistic/string-quotes': 'single',
 	'length-zero-no-unit': true,
 	'stylistic/unit-case': 'lower',
 	'value-keyword-case': [
