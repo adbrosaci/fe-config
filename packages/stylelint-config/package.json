@@ -1,6 +1,6 @@
 {
   "name": "@adbros/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylelint config for Adbros projects",
   "license": "MIT",
   "homepage": "https://github.com/adbrosaci/fe-config",
@@ -9,7 +9,6 @@
   "dependencies": {
     "@stylistic/stylelint-plugin": "^2.1.2",
     "postcss-html": "^1.7.0",
-    "postcss-scss": "^4.0.9",
     "stylelint": "^16.6.1",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-hudochenkov": "^10.0.0"

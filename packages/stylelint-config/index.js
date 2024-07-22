@@ -1,5 +1,6 @@
 import coreRules from './rules/core.js';
 import stylisticRules from './rules/stylistic.js';
+import orderRules from './rules/order.js';
 import vueRules from './rules/vue.js';
 
 export default {
@@ -12,6 +13,7 @@ export default {
 	],
 	rules: {
 		...coreRules,
+		...orderRules,
 		...stylisticRules,
 	},
 	overrides: [

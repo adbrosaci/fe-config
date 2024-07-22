@@ -9,7 +9,7 @@ export default {
 	},
 	overrides: [
 		{
-			files: [ '*.vue', '**/*.vue' ],
+			files: [ '**/*.vue' ],
 			rules: {
 				...tailwindRules,
 			},
