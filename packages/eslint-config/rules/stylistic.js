@@ -77,6 +77,9 @@ export default {
 	// Operators
 	'@stylistic/dot-location': [ 'error', 'property' ],
 	'@stylistic/no-mixed-operators': [ 'error', { allowSamePrecedence: true } ],
+	// Comments
+	'@stylistic/lines-comment-position': 'off',
+	'@stylistic/multiline-comment-style': [ 'error', 'separate-lines', { checkJSDoc: false } ],
 	// Disallow
 	'@stylistic/no-confusing-arrow': 'error',
 	'@stylistic/no-floating-decimal': 'error',

@@ -102,7 +102,6 @@ export default {
 	'max-nested-callbacks': [ 'error', 3 ],
 	'max-params': [ 'error', 5 ],
 	'max-statements': 'off',
-	'multiline-comment-style': [ 'error', 'separate-lines', { checkJSDoc: false } ],
 	'new-cap': 'off',
 	'no-alert': 'error',
 	'no-array-constructor': 'error',
