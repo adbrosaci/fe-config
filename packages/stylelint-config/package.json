@@ -1,23 +1,23 @@
 {
   "name": "@adbros/stylelint-config",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Stylelint config for Adbros projects",
   "license": "MIT",
   "homepage": "https://github.com/adbrosaci/fe-config",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
-    "postcss-html": "^1.5.0",
-    "postcss-scss": "^4.0.6",
+    "@stylistic/stylelint-plugin": "^2.1.2",
+    "postcss-html": "^1.7.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^16.6.1",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-hudochenkov": "^9.0.0",
-    "stylelint-order": "^6.0.3",
-    "stylelint-scss": "^5.0.1",
-    "stylelint-stylistic": "^0.4.2"
-  },
-  "peerDependencies": {
-    "stylelint": "^15.8.0"
+    "stylelint-config-hudochenkov": "^10.0.0"
   },
   "devDependencies": {
     "eslint": "^8.43.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^16.6.1"
   }
 }

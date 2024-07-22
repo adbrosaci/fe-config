@@ -1,20 +1,24 @@
-module.exports = {
+import coreRules from './rules/core.js';
+import stylisticRules from './rules/stylistic.js';
+import vueRules from './rules/vue.js';
+
+export default {
 	extends: [
 		'stylelint-config-hudochenkov/order',
 		'stylelint-config-html',
 	],
 	plugins: [
-		'stylelint-stylistic',
+		'@stylistic/stylelint-plugin',
 	],
 	rules: {
-		...require('./rules/core'),
+		...coreRules,
+		...stylisticRules,
 	},
 	overrides: [
 		{
 			files: [ '*.vue', '**/*.vue' ],
-			customSyntax: 'postcss-html',
 			rules: {
-				...require('./rules/vue'),
+				...vueRules,
 			},
 		},
 	],

@@ -1,24 +1,17 @@
-module.exports = {
+import tailwindRules from './rules/tailwind.js';
+
+export default {
 	extends: [
-		'@adbros/stylelint-config',
+		'./index',
 	],
 	rules: {
-		...require('./rules/tailwind').rules,
+		...tailwindRules,
 	},
 	overrides: [
 		{
 			files: [ '*.vue', '**/*.vue' ],
-			customSyntax: 'postcss-html',
 			rules: {
-				...require('./rules/tailwind').rules,
-			},
-		},
-		{
-			files: [ '*.scss', '**/*.scss' ],
-			customSyntax: 'postcss-html',
-			plugins: [ 'stylelint-scss' ],
-			rules: {
-				...require('./rules/tailwind').sassRules,
+				...tailwindRules,
 			},
 		},
 	],

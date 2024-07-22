@@ -1,12 +1,16 @@
 {
   "private": true,
   "name": "fe-config",
-  "author": "Adbros",
   "description": "Common configurations for frontend projects",
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-    "@adbros/eslint-config": "latest"
-  }
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adbros",
+  "license": "ISC",
+  "type": "module"
 }

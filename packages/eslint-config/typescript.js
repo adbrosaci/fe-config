@@ -1,22 +1,29 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
+import coreConfig from './index.js';
+import tseslint from 'typescript-eslint';
+import typescriptRules from './rules/typescript.js';
 
-module.exports = {
-	overrides: [
-		{
-			files: [ '*.ts', '*.tsx' ],
-			parser: '@typescript-eslint/parser',
+export default tseslint.config(
+	...coreConfig,
+	...tseslint.configs.recommendedTypeChecked,
+	{
+		files: [ '**/*.ts', '**/*.vue' ],
+		plugins: {
+			'@typescript-eslint': tseslint.plugin,
+		},
+		languageOptions: {
+			parser: tseslint.parser,
 			parserOptions: {
-				sourceType: 'module',
-				ecmaVersion: 'latest',
-				parser: '@typescript-eslint/parser',
+				project: true,
+				tsconfigRootDir: import.meta.dirname,
+				extraFileExtensions: [ '.vue' ],
 			},
 		},
-	],
-	extends: [
-		'@adbros/eslint-config',
-		'plugin:@typescript-eslint/recommended',
-	],
-	rules: {
-		...require('./rules/typescript'),
+		rules: {
+			...typescriptRules,
+		},
 	},
-};
+	{
+		files: [ '**/*.js' ],
+		...tseslint.configs.disableTypeChecked,
+	},
+);

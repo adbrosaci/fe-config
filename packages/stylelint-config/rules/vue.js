@@ -1,4 +1,4 @@
-const rules = {
+export default {
 	'value-keyword-case': [
 		'lower',
 		{
@@ -19,5 +19,3 @@ const rules = {
 		},
 	],
 };
-
-module.exports = rules;

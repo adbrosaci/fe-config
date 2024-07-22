@@ -1,16 +1,13 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
+import tailwindPlugin from 'eslint-plugin-tailwindcss';
+import tailwindRules from './rules/tailwind.js';
 
-module.exports = {
-	extends: [
-		'plugin:tailwindcss/recommended',
-	],
-	rules: {
-		'tailwindcss/classnames-order': 'warn',
-		'tailwindcss/enforces-negative-arbitrary-values': 'warn',
-		'tailwindcss/enforces-shorthand': 'warn',
-		'tailwindcss/migration-from-tailwind-2': 'off',
-		'tailwindcss/no-arbitrary-value': 'off',
-		'tailwindcss/no-custom-classname': 'off',
-		'tailwindcss/no-contradicting-classname': 'error',
+export default [
+	{
+		plugins: {
+			tailwindcss: tailwindPlugin,
+		},
+		rules: {
+			...tailwindRules,
+		},
 	},
-};
+];
