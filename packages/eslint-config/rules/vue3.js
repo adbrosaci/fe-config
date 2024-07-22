@@ -271,7 +271,7 @@ export default {
 	'vue/keyword-spacing': [ 'error', { after: true, before: true } ],
 	'vue/max-len': 'off',
 	'vue/multiline-ternary': 'off',
-	'vue/no-extra-parens': [ 'error', 'all' ],
+	'vue/no-extra-parens': 'off',
 	'vue/object-curly-newline': [ 'error', { multiline: true } ],
 	'vue/object-curly-spacing': [ 'error', 'always' ],
 	'vue/object-property-newline': [ 'error', { allowAllPropertiesOnSameLine: true } ],

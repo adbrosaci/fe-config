@@ -58,7 +58,7 @@ export default {
 	'@stylistic/arrow-parens': [ 'error', arrowParens ? 'always' : 'as-needed', { requireForBlockBody: true } ],
 	'@stylistic/brace-style': [ 'error', braceStyle, { allowSingleLine: false } ],
 	'@stylistic/new-parens': 'error',
-	'@stylistic/no-extra-parens': [ 'error', 'all' ],
+	'@stylistic/no-extra-parens': 'off',
 	'@stylistic/wrap-iife': [ 'error', 'inside' ],
 	'@stylistic/wrap-regex': 'off',
 	// Indent
