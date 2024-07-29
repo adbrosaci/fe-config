@@ -1,15 +1,16 @@
 import tailwindRules from './rules/tailwind.js';
 
+/** @type {import('stylelint').Config} */
 export default {
 	extends: [
-		'./index',
+		'./',
 	],
 	rules: {
 		...tailwindRules,
 	},
 	overrides: [
 		{
-			files: [ '**/*.vue' ],
+			files: [ '*.vue', '**/*.vue' ],
 			rules: {
 				...tailwindRules,
 			},

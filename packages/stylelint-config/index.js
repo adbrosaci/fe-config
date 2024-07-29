@@ -3,13 +3,11 @@ import stylisticRules from './rules/stylistic.js';
 import orderRules from './rules/order.js';
 import vueRules from './rules/vue.js';
 
+/** @type {import('stylelint').Config} */
 export default {
-	extends: [
-		'stylelint-config-hudochenkov/order',
-		'stylelint-config-html',
-	],
 	plugins: [
 		'@stylistic/stylelint-plugin',
+		'stylelint-order',
 	],
 	rules: {
 		...coreRules,
@@ -19,6 +17,7 @@ export default {
 	overrides: [
 		{
 			files: [ '*.vue', '**/*.vue' ],
+			customSyntax: 'postcss-html',
 			rules: {
 				...vueRules,
 			},
