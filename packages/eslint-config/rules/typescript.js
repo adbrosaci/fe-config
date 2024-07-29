@@ -34,16 +34,7 @@ export default {
 		allowProtectedClassPropertyAccess: false,
 		allowIndexSignaturePropertyAccess: true,
 	} ],
-	'@typescript-eslint/explicit-function-return-type': [ 'error', {
-		allowExpressions: true,
-		allowTypedFunctionExpressions: true,
-		allowHigherOrderFunctions: true,
-		allowDirectConstAssertionInArrowFunctions: true,
-		allowConciseArrowFunctionExpressionsStartingWithVoid: false,
-		allowFunctionsWithoutTypeParameters: false,
-		allowedNames: [],
-		allowIIFEs: true,
-	} ],
+	'@typescript-eslint/explicit-function-return-type': 'off',
 	'@typescript-eslint/explicit-member-accessibility': [ 'error', {
 		accessibility: 'no-public',
 	} ],
@@ -147,8 +138,8 @@ export default {
 	'@typescript-eslint/no-use-before-define': [ 'error', {
 		functions: false,
 		classes: true,
-		variables: true,
-		allowNamedExports: true,
+		variables: false,
+		allowNamedExports: false,
 	} ],
 	'no-useless-constructor': 'off',
 	'@typescript-eslint/no-useless-constructor': 'error',
