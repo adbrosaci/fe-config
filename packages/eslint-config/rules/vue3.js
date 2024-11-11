@@ -46,7 +46,7 @@ export default {
 	'vue/no-template-key': 'error',
 	'vue/no-textarea-mustache': 'error',
 	'vue/no-unused-components': 'error',
-	'vue/no-unused-vars': 'error',
+	'vue/no-unused-vars': [ 'error', { ignorePattern: '^_' } ],
 	'vue/no-use-computed-property-like-method': 'error',
 	'vue/no-use-v-if-with-v-for': 'error',
 	'vue/no-useless-template-attributes': 'error',
