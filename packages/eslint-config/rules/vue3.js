@@ -249,7 +249,7 @@ export default {
 	} ],
 	'vue/dot-notation': 'off',
 	'vue/eqeqeq': [ 'error', 'smart' ],
-	'vue/no-console': [ 'warn', { allow: [ 'warn', 'error' ] } ],
+	'vue/no-console': [ 'warn', { allow: [ 'warn', 'error', 'info' ] } ],
 	'vue/no-restricted-syntax': 'off',
 	'vue/no-useless-concat': 'error',
 	'vue/object-shorthand': [ 'error', 'always' ],
