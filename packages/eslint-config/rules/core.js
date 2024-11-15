@@ -77,7 +77,7 @@ export default {
 	'capitalized-comments': 'off',
 	'class-methods-use-this': 'off',
 	complexity: 'off',
-	'consistent-return': 'error',
+	'consistent-return': 'off',
 	'consistent-this': 'off',
 	curly: 'error',
 	'default-case': 'off',
