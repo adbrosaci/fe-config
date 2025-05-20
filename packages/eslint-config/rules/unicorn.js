@@ -14,6 +14,7 @@ export default {
 			kebabCase: true,
 			pascalCase: true,
 		},
+		ignore: [ /.*\[[^\]]+].*\.vue$/ ],
 	} ],
 	'unicorn/import-style': 'off',
 	'unicorn/new-for-builtins': 'error',
