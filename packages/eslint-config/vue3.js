@@ -1,8 +1,10 @@
 import typescriptConfig from './typescript.js';
 import vueRules from './rules/vue3.js';
+import a11yRules from './rules/vue3-a11y.js';
 import typescriptRules from './rules/typescript.js';
 import vueParser from 'vue-eslint-parser';
 import vuePlugin from 'eslint-plugin-vue';
+import vueA11yPlugin from 'eslint-plugin-vuejs-accessibility';
 import tseslint from 'typescript-eslint';
 
 export default [
@@ -22,6 +24,7 @@ export default [
 		files: [ '**/*.vue' ],
 		plugins: {
 			vue: vuePlugin,
+			'vue-a11y': vueA11yPlugin,
 		},
 		languageOptions: {
 			parser: vueParser,
@@ -29,6 +32,7 @@ export default [
 		rules: {
 			...typescriptRules,
 			...vueRules,
+			...a11yRules,
 		},
 	},
 	{
