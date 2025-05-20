@@ -1,5 +1,5 @@
 export default {
-	'unicorn/better-regex': 'error',
+	'unicorn/better-regex': 'off',
 	'unicorn/catch-error-name': 'error',
 	'unicorn/consistent-destructuring': 'off',
 	'unicorn/consistent-function-scoping': 'error',
@@ -23,7 +23,6 @@ export default {
 	'unicorn/no-array-callback-reference': 'error',
 	'unicorn/no-array-for-each': 'error',
 	'unicorn/no-array-method-this-argument': 'error',
-	'unicorn/no-array-push-push': 'error',
 	'unicorn/no-array-reduce': 'off',
 	'unicorn/no-await-expression-member': 'error',
 	'unicorn/no-console-spaces': 'error',
@@ -105,6 +104,7 @@ export default {
 	'unicorn/prefer-regexp-test': 'error',
 	'unicorn/prefer-set-has': 'off',
 	'unicorn/prefer-set-size': 'error',
+	'unicorn/prefer-single-call': 'error',
 	'unicorn/prefer-spread': 'off',
 	'unicorn/prefer-string-replace-all': 'error',
 	'unicorn/prefer-string-slice': 'error',
