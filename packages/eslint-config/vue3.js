@@ -6,6 +6,7 @@ import vueParser from 'vue-eslint-parser';
 import vuePlugin from 'eslint-plugin-vue';
 import vueA11yPlugin from 'eslint-plugin-vuejs-accessibility';
 import tseslint from 'typescript-eslint';
+import eslintConfigPrettier from 'eslint-config-prettier';
 
 export default [
 	...typescriptConfig,
@@ -39,4 +40,5 @@ export default [
 		files: [ '**/*.ts', '**/*.vue' ],
 		...tseslint.configs.disableTypeChecked,
 	},
+	eslintConfigPrettier,
 ];
