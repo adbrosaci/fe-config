@@ -1,0 +1,20 @@
+{
+  "name": "@adbros/prettier-config",
+  "version": "0.0.1",
+  "description": "Shared Prettier configuration for Adbros projects",
+  "type": "module",
+  "exports": "./index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/adbrosaci/fe-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.9"
+  }
+}
+
+
