@@ -1,6 +1,6 @@
 {
   "name": "@adbros/eslint-config",
-  "version": "3.0.0",
+  "version": "4.0.0-beta.1",
   "description": "ESLint config for Adbros projects",
   "license": "MIT",
   "homepage": "https://github.com/adbrosaci/fe-config",
