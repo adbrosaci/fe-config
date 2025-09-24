@@ -10,7 +10,7 @@ export default {
 	'vue-a11y/label-has-for': [
 		'error',
 		{
-			required: { some: ['nesting', 'id'] },
+			required: { some: [ 'nesting', 'id' ] },
 			allowChildren: true,
 		},
 	],
@@ -21,7 +21,7 @@ export default {
 	'vue-a11y/no-static-element-interactions': 'error',
 	'vue-a11y/role-has-required-aria-props': 'error',
 	'vue-a11y/media-has-caption': 'warn',
-	'vue-a11y/click-events-have-key-events': 'off',
+	'vue-a11y/click-events-have-key-events': 'error',
 	'vue-a11y/form-control-has-label': 'off',
 	'vue-a11y/mouse-events-have-key-events': 'off',
 	'vue-a11y/no-aria-hidden-on-focusable': 'off',
