@@ -1,5 +1,4 @@
 export default {
-	'@stylistic/declaration-block-trailing-semicolon': null,
 	'no-descending-specificity': null,
 
 	'at-rule-no-unknown': [
