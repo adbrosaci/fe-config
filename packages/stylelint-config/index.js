@@ -1,9 +1,20 @@
-import base from './base.js';
+import coreRules from './rules/core.js';
+import vueRules from './rules/vue.js';
 
 /** @type {import('stylelint').Config} */
 export default {
-	extends: [
-		base,
-		'stylelint-config-prettier',
+	plugins: [
+	],
+	rules: {
+		...coreRules,
+	},
+	overrides: [
+		{
+			files: [ '*.vue', '**/*.vue' ],
+			customSyntax: 'postcss-html',
+			rules: {
+				...vueRules,
+			},
+		},
 	],
 };

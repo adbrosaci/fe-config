@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "postcss-html": "^1.7.0",
-    "stylelint": "^16.10.0",
-    "stylelint-config-prettier": "^10.0.0"
+    "stylelint": "^16.10.0"
   },
   "devDependencies": {
     "bumpp": "^9.8.1",
