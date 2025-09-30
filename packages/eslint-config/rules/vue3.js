@@ -90,7 +90,7 @@ export default {
 	'vue/attribute-hyphenation': 'error',
 	'vue/component-definition-name-casing': 'error',
 	'vue/first-attribute-linebreak': [ 'error', {
-		singleline: 'beside',
+		singleline: 'ignore',
 		multiline: 'below',
 	} ],
 	'vue/html-closing-bracket-newline': 'error',
