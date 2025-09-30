@@ -11,6 +11,6 @@
 ```javascript
 /** @type {import('stylelint').Config} */
 export default {
-	extends: [ '@adbros/stylelint-config/tailwind' ],
+	extends: ['@adbros/stylelint-config/tailwind'],
 };
 ```

@@ -2,7 +2,10 @@ export default {
 	'block-no-empty': true,
 	'color-no-invalid-hex': true,
 	'comment-no-empty': true,
-	'declaration-block-no-duplicate-properties': [ true, { ignore: [ 'consecutive-duplicates-with-different-values' ] } ],
+	'declaration-block-no-duplicate-properties': [
+		true,
+		{ ignore: ['consecutive-duplicates-with-different-values'] },
+	],
 	'declaration-block-no-shorthand-property-overrides': true,
 	'font-family-no-duplicate-names': true,
 	'font-family-no-missing-generic-family-keyword': true,
