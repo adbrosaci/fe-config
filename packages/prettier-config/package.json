@@ -6,6 +6,9 @@
   "exports": "./index.js",
   "license": "MIT",
   "homepage": "https://github.com/adbrosaci/fe-config",
+  "scripts": {
+    "release": "bumpp -t prettier-config@ && npm publish"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -16,5 +19,3 @@
     "prettier-plugin-tailwindcss": "^0.6.9"
   }
 }
-
-
