@@ -1,7 +1,7 @@
 import coreConfig from './index.js';
 import tseslint from 'typescript-eslint';
 import typescriptRules from './rules/typescript.js';
-import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintConfigPrettier from 'eslint-config-prettier/flat';
 
 export default tseslint.config(
 	...coreConfig,

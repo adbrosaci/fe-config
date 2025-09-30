@@ -6,7 +6,7 @@ import vueParser from 'vue-eslint-parser';
 import vuePlugin from 'eslint-plugin-vue';
 import vueA11yPlugin from 'eslint-plugin-vuejs-accessibility';
 import tseslint from 'typescript-eslint';
-import eslintConfigPrettier from 'eslint-config-prettier';
+import eslintConfigPrettier from 'eslint-config-prettier/flat';
 
 export default [
 	...typescriptConfig,
