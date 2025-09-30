@@ -4,11 +4,10 @@
 const config = {
 	semi: true,
 	singleQuote: true,
-	useTabs: true,
 	quoteProps: "as-needed",
-	trailingComma: 'all',
+	trailingComma: "all",
 	tabWidth: 2,
-	plugins: [ 'prettier-plugin-tailwindcss' ],
+	plugins: ["prettier-plugin-tailwindcss"],
 };
 
 export default config;
