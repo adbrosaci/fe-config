@@ -16,13 +16,13 @@ export default [
 			parserOptions: {
 				parser: tseslint.parser,
 				ecmaVersion: 'latest',
-				extraFileExtensions: [ '.vue' ],
+				extraFileExtensions: ['.vue'],
 				sourceType: 'module',
 			},
 		},
 	},
 	{
-		files: [ '**/*.vue' ],
+		files: ['**/*.vue'],
 		plugins: {
 			vue: vuePlugin,
 			'vue-a11y': vueA11yPlugin,
@@ -37,7 +37,7 @@ export default [
 		},
 	},
 	{
-		files: [ '**/*.ts', '**/*.vue' ],
+		files: ['**/*.ts', '**/*.vue'],
 		...tseslint.configs.disableTypeChecked,
 	},
 	eslintConfigPrettier,

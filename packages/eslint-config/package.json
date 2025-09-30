@@ -6,8 +6,10 @@
   "homepage": "https://github.com/adbrosaci/fe-config",
   "main": "index.js",
   "type": "module",
+  "prettier": "@adbros/prettier-config",
   "scripts": {
-    "release": "bumpp -t eslint-config@ && npm publish"
+    "release": "bumpp -t eslint-config@ && npm publish",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@eslint/js": "^9.27.0",
@@ -24,7 +26,8 @@
   },
   "devDependencies": {
     "bumpp": "^10.1.1",
-    "eslint": "^9.27.0"
+    "eslint": "^9.27.0",
+    "@adbros/prettier-config": "*"
   },
   "peerDependencies": {
     "eslint": "^9.27.0"

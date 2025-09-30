@@ -7,7 +7,7 @@ export default tseslint.config(
 	...coreConfig,
 	...tseslint.configs.recommendedTypeChecked,
 	{
-		files: [ '**/*.ts', '**/*.vue' ],
+		files: ['**/*.ts', '**/*.vue'],
 		plugins: {
 			'@typescript-eslint': tseslint.plugin,
 		},
@@ -16,7 +16,7 @@ export default tseslint.config(
 			parserOptions: {
 				project: true,
 				tsconfigRootDir: import.meta.dirname,
-				extraFileExtensions: [ '.vue' ],
+				extraFileExtensions: ['.vue'],
 			},
 		},
 		rules: {
@@ -24,7 +24,7 @@ export default tseslint.config(
 		},
 	},
 	{
-		files: [ '**/*.js' ],
+		files: ['**/*.js'],
 		...tseslint.configs.disableTypeChecked,
 	},
 	eslintConfigPrettier,

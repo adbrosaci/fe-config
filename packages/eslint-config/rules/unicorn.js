@@ -9,13 +9,16 @@ export default {
 	'unicorn/escape-case': 'error',
 	'unicorn/expiring-todo-comments': 'off',
 	'unicorn/explicit-length-check': 'error',
-	'unicorn/filename-case': [ 'error', {
-		cases: {
-			kebabCase: true,
-			pascalCase: true,
+	'unicorn/filename-case': [
+		'error',
+		{
+			cases: {
+				kebabCase: true,
+				pascalCase: true,
+			},
+			ignore: [/.*\[[^\]]+].*\.vue$/],
 		},
-		ignore: [ /.*\[[^\]]+].*\.vue$/ ],
-	} ],
+	],
 	'unicorn/import-style': 'off',
 	'unicorn/new-for-builtins': 'error',
 	'unicorn/no-abusive-eslint-disable': 'error',
@@ -115,14 +118,14 @@ export default {
 	'unicorn/prefer-top-level-await': 'error',
 	'unicorn/prefer-type-error': 'off',
 	'unicorn/prevent-abbreviations': 'off',
-	'unicorn/relative-url-style': [ 'error', 'always' ],
+	'unicorn/relative-url-style': ['error', 'always'],
 	'unicorn/require-array-join-separator': 'error',
 	'unicorn/require-number-to-fixed-digits-argument': 'error',
 	// Turned off because we can't distinguish `widow.postMessage` and `{Worker,MessagePort,Client,BroadcastChannel}#postMessage()`
 	// See #1396
 	'unicorn/require-post-message-target-origin': 'off',
 	'unicorn/string-content': 'off',
-	'unicorn/switch-case-braces': [ 'error', 'avoid' ],
+	'unicorn/switch-case-braces': ['error', 'avoid'],
 	'unicorn/template-indent': 'off',
 	'unicorn/text-encoding-identifier-case': 'error',
 	'unicorn/throw-new-error': 'error',

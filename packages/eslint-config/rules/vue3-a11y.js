@@ -10,7 +10,7 @@ export default {
 	'vue-a11y/label-has-for': [
 		'error',
 		{
-			required: { some: [ 'nesting', 'id' ] },
+			required: { some: ['nesting', 'id'] },
 			allowChildren: true,
 		},
 	],
