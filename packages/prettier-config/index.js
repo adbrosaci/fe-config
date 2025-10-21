@@ -7,7 +7,7 @@ const config = {
 	quoteProps: "as-needed",
 	trailingComma: "all",
 	tabWidth: 2,
-	plugins: ["prettier-plugin-tailwindcss", "prettier-plugin-css-order"],
+	plugins: ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss", "prettier-plugin-css-order"],
 };
 
 export default config;
