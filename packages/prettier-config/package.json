@@ -1,6 +1,6 @@
 {
   "name": "@adbros/prettier-config",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Shared Prettier configuration for Adbros projects",
   "type": "module",
   "exports": "./index.js",
