@@ -263,7 +263,6 @@ export default {
 	'vue/padding-line-between-blocks': 'error',
 	'vue/padding-line-between-tags': 'off',
 	'vue/padding-lines-in-component-definition': 'error',
-	// '@stylistic/indent': 'off',
 	'vue/script-indent': ['error', 'tab'],
 	'vue/v-for-delimiter-style': 'error',
 
