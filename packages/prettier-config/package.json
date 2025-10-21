@@ -16,6 +16,7 @@
     "prettier": ">=3.0.0"
   },
   "dependencies": {
-    "prettier-plugin-tailwindcss": "^0.6.9"
+    "prettier-plugin-css-order": "^2.1.2",
+    "prettier-plugin-tailwindcss": "^0.7.1"
   }
 }
