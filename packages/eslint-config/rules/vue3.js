@@ -157,7 +157,7 @@ export default {
 	],
 	'vue/block-order': [
 		'error',
-		{ order: ['template', 'script', 'style', 'docs'] },
+		{ order: ['script', 'template','style', 'docs'] },
 	],
 	'vue/component-api-style': 'error',
 	'vue/component-name-in-template-casing': [
@@ -248,8 +248,8 @@ export default {
 		{
 			order: [
 				'defineOptions',
-				'defineModel',
 				'defineProps',
+				'defineModel',
 				'defineEmits',
 				'defineSlots',
 			],
