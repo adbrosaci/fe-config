@@ -1,9 +1,6 @@
 export default {
 	// Stylistic (class order + whitespace disabled – handled by Prettier)
-	'better-tailwindcss/enforce-consistent-line-wrapping': ['error', {
-		indent: 'tab',
-		strictness: 'loose',
-	}],
+	'better-tailwindcss/enforce-consistent-line-wrapping': 'off',
 	'better-tailwindcss/enforce-consistent-class-order': 'off',
 	'better-tailwindcss/enforce-consistent-variable-syntax': 'off',
 	'better-tailwindcss/enforce-consistent-important-position': 'off',
