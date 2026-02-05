@@ -1,10 +1,19 @@
 export default {
-	'tailwindcss/classnames-order': 'off',
-	'tailwindcss/enforces-negative-arbitrary-values': 'error',
-	'tailwindcss/enforces-shorthand': 'error',
-	'tailwindcss/migration-from-tailwind-2': 'off',
-	'tailwindcss/no-arbitrary-value': 'off',
-	'tailwindcss/no-custom-classname': 'off',
-	'tailwindcss/no-contradicting-classname': 'off',
-	'tailwindcss/no-unnecessary-arbitrary-value': 'warn',
+	// Stylistic (class order + whitespace disabled – handled by Prettier)
+	'better-tailwindcss/enforce-consistent-line-wrapping': ['error', {
+		indent: 'tab',
+		strictness: 'loose',
+	}],
+	'better-tailwindcss/enforce-consistent-class-order': 'off',
+	'better-tailwindcss/enforce-consistent-variable-syntax': 'off',
+	'better-tailwindcss/enforce-consistent-important-position': 'off',
+	'better-tailwindcss/enforce-shorthand-classes': 'error',
+	'better-tailwindcss/enforce-canonical-classes': 'error',
+	'better-tailwindcss/no-duplicate-classes': 'error',
+	'better-tailwindcss/no-deprecated-classes': 'off',
+	'better-tailwindcss/no-unnecessary-whitespace': 'off',
+	// Correctness
+	'better-tailwindcss/no-unknown-classes': 'off',
+	'better-tailwindcss/no-conflicting-classes': 'off',
+	'better-tailwindcss/no-restricted-classes': 'off',
 };

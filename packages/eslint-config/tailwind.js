@@ -1,10 +1,10 @@
-import tailwindPlugin from 'eslint-plugin-tailwindcss';
+import betterTailwindcss from 'eslint-plugin-better-tailwindcss';
 import tailwindRules from './rules/tailwind.js';
 
 export default [
 	{
 		plugins: {
-			tailwindcss: tailwindPlugin,
+			'better-tailwindcss': betterTailwindcss,
 		},
 		rules: {
 			...tailwindRules,
