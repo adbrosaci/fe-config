@@ -1,18 +1,34 @@
 export default {
 	'no-descending-specificity': null,
-
+	'import-notation': null,
 	'at-rule-no-unknown': [
 		true,
 		{
 			ignoreAtRules: [
+				/** tailwindcss v4 */
+				'theme',
+				'source',
+				'utility',
+				'variant',
+				'custom-variant',
+				'plugin',
+				'reference',
+				/** tailwindcss v3 */
 				'tailwind',
 				'apply',
 				'layer',
-				'theme',
+				'config',
+				/** tailwindcss v1, v2 */
+				'variants',
+				'responsive',
 				'screen',
-				'plugin',
-				'reference',
 			],
+		},
+	],
+	'function-no-unknown': [
+		true,
+		{
+			ignoreFunctions: ['theme'],
 		},
 	],
 };

@@ -1,26 +1,26 @@
 {
-	"name": "@adbros/stylelint-config",
-	"version": "2.0.0",
-	"description": "Stylelint config for Adbros projects",
-	"license": "MIT",
-	"homepage": "https://github.com/adbrosaci/fe-config",
-	"main": "index.js",
-	"type": "module",
-	"prettier": "@adbros/prettier-config",
-	"scripts": {
-		"release": "bumpp -t stylelint-config@ && npm publish",
-		"format": "prettier --write ."
-	},
-	"dependencies": {
-		"postcss-html": "^1.8.0",
-		"stylelint": "^16.25.0"
-	},
-	"devDependencies": {
-		"bumpp": "^10.3.1",
-		"eslint": "^9.38.0",
-		"@adbros/prettier-config": "*"
-	},
-	"peerDependencies": {
-		"stylelint": "^16.8.0"
-	}
+  "name": "@adbros/stylelint-config",
+  "version": "2.0.0",
+  "description": "Stylelint config for Adbros projects",
+  "license": "MIT",
+  "homepage": "https://github.com/adbrosaci/fe-config",
+  "main": "index.js",
+  "type": "module",
+  "prettier": "@adbros/prettier-config",
+  "scripts": {
+    "release": "bumpp -t stylelint-config@ && npm publish",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "postcss-html": "^1.8.1",
+    "stylelint": "^17.13.0"
+  },
+  "devDependencies": {
+    "bumpp": "^11.1.0",
+    "eslint": "^10.5.0",
+    "@adbros/prettier-config": "*"
+  },
+  "peerDependencies": {
+    "stylelint": "^17.13.0"
+  }
 }

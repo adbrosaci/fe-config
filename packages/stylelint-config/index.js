@@ -1,3 +1,4 @@
+import postcssHtml from 'postcss-html';
 import coreRules from './rules/core.js';
 import vueRules from './rules/vue.js';
 
@@ -10,7 +11,7 @@ export default {
 	overrides: [
 		{
 			files: ['*.vue', '**/*.vue'],
-			customSyntax: 'postcss-html',
+			customSyntax: postcssHtml,
 			rules: {
 				...vueRules,
 			},
