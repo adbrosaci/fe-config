@@ -6,6 +6,6 @@
   "homepage": "https://github.com/adbrosaci/fe-config",
   "main": "index.js",
   "devDependencies": {
-    "eslint": "^8.43.0"
+    "eslint": "^10.5.0"
   }
 }

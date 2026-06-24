@@ -12,24 +12,24 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@eslint/js": "^9.38.0",
-    "@typescript-eslint/eslint-plugin": "^8.46.2",
-    "@typescript-eslint/parser": "^8.46.2",
-    "eslint-config-flat-gitignore": "^2.1.0",
+    "@eslint/js": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.62.0",
+    "@typescript-eslint/parser": "^8.62.0",
+    "eslint-config-flat-gitignore": "^2.3.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-better-tailwindcss": "^4.1.1",
-    "eslint-plugin-unicorn": "^61.0.2",
-    "eslint-plugin-vue": "^10.5.1",
-    "eslint-plugin-vuejs-accessibility": "^2.4.1",
-    "globals": "^16.4.0",
-    "typescript-eslint": "^8.46.2"
+    "eslint-plugin-better-tailwindcss": "^4.6.0",
+    "eslint-plugin-unicorn": "^68.0.0",
+    "eslint-plugin-vue": "^10.9.2",
+    "eslint-plugin-vuejs-accessibility": "^2.5.0",
+    "globals": "^17.7.0",
+    "typescript-eslint": "^8.62.0"
   },
   "devDependencies": {
     "@adbros/prettier-config": "*",
-    "bumpp": "^10.3.1",
-    "eslint": "^9.38.0"
+    "bumpp": "^11.1.0",
+    "eslint": "^10.5.0"
   },
   "peerDependencies": {
-    "eslint": "^9.27.0"
+    "eslint": "^10.5.0"
   }
 }
