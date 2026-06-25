@@ -4,6 +4,14 @@
   "description": "Stylelint config for Adbros projects",
   "license": "MIT",
   "homepage": "https://github.com/adbrosaci/fe-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adbrosaci/fe-config.git",
+    "directory": "packages/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/adbrosaci/fe-config/issues"
+  },
   "main": "index.js",
   "type": "module",
   "prettier": "@adbros/prettier-config",
